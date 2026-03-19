@@ -2,7 +2,7 @@
 
 Analyzing bike-sharing demand deviations using time series decomposition (STL) to uncover how weather, temperature, humidity, and rider behavior influence demand beyond seasonal patterns.
 
-🔗 **Tableau Dashboard:**  
+**Tableau Dashboard:**  
 [![Tableau Dashboard Overview](figures/tableau_overview.png)](https://public.tableau.com/views/BikeRentalDemandDeviationAnalysis/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
@@ -23,7 +23,7 @@ By analyzing **residual demand**, we isolate how external factors drive deviatio
 
 ---
 
-## 📊 Methodology
+## Methodology
 
 - **Time Series Decomposition**
   - STL used to remove trend and weekly seasonality
@@ -42,7 +42,7 @@ By analyzing **residual demand**, we isolate how external factors drive deviatio
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 ### 1. Weather Effects
 - Adverse weather strongly suppresses demand deviations
