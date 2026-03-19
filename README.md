@@ -7,19 +7,19 @@ Analyzing bike-sharing demand deviations using time series decomposition (STL) t
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on understanding **unexpected changes in bike demand** after removing trend and seasonality.  
 By analyzing **residual demand**, we isolate how external factors drive deviations from expected usage.
 
 ---
 
-## 🔑 Key Insights
+## Key Insights
 
-- 🌧️ Rain is associated with **~17–18 fewer rentals/hour** and a sharp increase in negative demand shocks (6% → 38%)
-- 🌡️ Demand peaks around **26°C**, but shows a **non-monotonic dip at 17–22°C**
-- 💧 This dip is associated with **high humidity**, not temperature alone
-- 🚴 ~**80% of demand variability** is driven by **registered (commuter) riders**
+- Rain is associated with **~17–18 fewer rentals/hour** and a sharp increase in negative demand shocks (6% → 38%)
+- Demand peaks around **26°C**, but shows a **non-monotonic dip at 17–22°C**
+- This dip is associated with **high humidity**, not temperature alone
+- ~**80% of demand deviations during extreme shocks** is driven by **registered (commuter) riders**
 
 ---
 
@@ -63,11 +63,16 @@ By analyzing **residual demand**, we isolate how external factors drive deviatio
 
 ---
 
-## ⚙️ Operational Implications
+## Operational Implications
 
-- 📉 Reduce bike allocation during rainy conditions (~15–20 fewer rentals/hour expected)
-- 📈 Increase capacity during **26–30°C** periods to capture demand spikes
-- 💧 Monitor high-humidity days (17–22°C) for unexpected demand drops
-- 🚴 Prioritize commuter-heavy areas for redistribution planning
+- Reduce bike allocation during rainy conditions (~15–20 fewer rentals/hour expected)
+- Increase capacity during **26–30°C** periods to capture demand spikes
+- Monitor high-humidity days (17–22°C) for unexpected demand drops
+- Prioritize commuter-heavy areas for redistribution planning
 
 ---
+
+## 📚 Data Source
+
+Fanaee-T, H. (2013). *Bike Sharing* [Dataset]. UCI Machine Learning Repository.  
+https://doi.org/10.24432/C5W894
