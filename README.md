@@ -2,8 +2,7 @@
 
 ## Project Overview
 
-This project analyzes bike-sharing demand deviations using time-series decomposition (STL) to understand how weather, temperature, humidity, and rider behavior influence demand beyond seasonal patterns.  
-By isolating **residual demand**, we translate these patterns into **actionable strategies for bike allocation, capacity planning, and operations**.
+This project analyzes bike-sharing demand deviations using time-series decomposition (STL) to understand how weather, temperature, humidity, and rider behavior influence demand beyond seasonal patterns. By isolating **residual demand**, we translate these patterns into **actionable strategies for bike allocation, capacity planning, and operations**.
 
 **Tableau Dashboard:**  
 [![Tableau Dashboard Overview](figures/tableau_overview.png)](https://public.tableau.com/views/BikeRentalDemandDeviationAnalysis/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
