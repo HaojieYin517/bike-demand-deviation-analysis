@@ -20,7 +20,7 @@ By analyzing **residual demand**, we isolate how external factors drive deviatio
 - **Avoid overestimating demand in moderate temperatures (17–22°C)**: Treat this range as a risk zone with higher likelihood of demand drops, especially under high humidity.
 - **Incorporate humidity as a demand signal**: High humidity suppresses demand even at moderate temperatures; adjust allocation downward when humidity is elevated.
 - **Prioritize commuter-driven demand**: Registered riders account for ~80% of extreme demand fluctuations, so bike allocation should focus on peak commuting periods and locations.
-- 
+
 ---
 
 ## Key Results
