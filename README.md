@@ -14,6 +14,15 @@ By analyzing **residual demand**, we isolate how external factors drive deviatio
 
 ---
 
+## Operational Takeaways
+- **Adjust supply based on weather**: Reduce bike allocation by ~15–20 bikes/hour during rain and increase availability under clear conditions to capture demand spikes.
+- **Plan capacity around temperature**: Maintain higher bike availability in warm conditions (22–30°C, peak around 26°C) and reduce supply during extreme cold or heat when demand drops.
+- **Avoid overestimating demand in moderate temperatures (17–22°C)**: Treat this range as a risk zone with higher likelihood of demand drops, especially under high humidity.
+- **Incorporate humidity as a demand signal**: High humidity suppresses demand even at moderate temperatures; adjust allocation downward when humidity is elevated.
+- **Prioritize commuter-driven demand**: Registered riders account for ~80% of extreme demand fluctuations, so bike allocation should focus on peak commuting periods and locations.
+- 
+---
+
 ## Key Results
 
 - Rain is associated with **~17–18 fewer rentals/hour** and a sharp increase in negative demand shocks (6% → 38%)
@@ -60,15 +69,6 @@ By analyzing **residual demand**, we isolate how external factors drive deviatio
 - The 17–22°C dip coincides with **peak humidity levels**
 - Under low humidity, demand follows expected increasing trend
 - Under high humidity, demand is consistently suppressed
-
----
-
-## Operational Takeaways
-- **Adjust supply based on weather**: Reduce bike allocation by ~15–20 bikes/hour during rain and increase availability under clear conditions to capture demand spikes.
-- **Plan capacity around temperature**: Maintain higher bike availability in warm conditions (22–30°C, peak around 26°C) and reduce supply during extreme cold or heat when demand drops.
-- **Avoid overestimating demand in moderate temperatures (17–22°C)**: Treat this range as a risk zone with higher likelihood of demand drops, especially under high humidity.
-- **Incorporate humidity as a demand signal**: High humidity suppresses demand even at moderate temperatures; adjust allocation downward when humidity is elevated.
-- **Prioritize commuter-driven demand**: Registered riders account for ~80% of extreme demand fluctuations, so bike allocation should focus on peak commuting periods and locations.
 
 ---
 
