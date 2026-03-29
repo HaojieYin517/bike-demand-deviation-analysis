@@ -1,4 +1,4 @@
-# Bike-Sharing Demand Deviation Analysis
+# Bike-Sharing Demand Deviation Analysis for Operational Planning
 
 Analyzing bike-sharing demand deviations using time series decomposition (STL) to uncover how weather, temperature, humidity, and rider behavior influence demand beyond seasonal patterns.
 
@@ -10,11 +10,11 @@ Analyzing bike-sharing demand deviations using time series decomposition (STL) t
 ## Project Overview
 
 This project focuses on understanding **unexpected changes in bike demand** after removing trend and seasonality.  
-By analyzing **residual demand**, we isolate how external factors drive deviations from expected usage.
+By analyzing **residual demand**, we isolate how external factors drive deviations from expected usage and translate these patterns into **actionable operational planning strategies**.
 
 ---
 
-## Key Insights
+## Key Results
 
 - Rain is associated with **~17–18 fewer rentals/hour** and a sharp increase in negative demand shocks (6% → 38%)
 - Demand peaks around **26°C**, but shows a **non-monotonic dip at 17–22°C**
@@ -42,7 +42,7 @@ By analyzing **residual demand**, we isolate how external factors drive deviatio
 
 ---
 
-## Key Findings
+## Detailed Findings
 
 ### 1. Weather Effects
 - Adverse weather strongly suppresses demand deviations
@@ -63,16 +63,16 @@ By analyzing **residual demand**, we isolate how external factors drive deviatio
 
 ---
 
-## Operational Implications
-
-- Reduce bike allocation during rainy conditions (~15–20 fewer rentals/hour expected)
-- Increase capacity during **26–30°C** periods to capture demand spikes
-- Monitor high-humidity days (17–22°C) for unexpected demand drops
-- Prioritize commuter-heavy areas for redistribution planning
+## Operational Takeaways
+- **Adjust supply based on weather**: Reduce bike allocation by ~15–20 bikes/hour during rain and increase availability under clear conditions to capture demand spikes.
+- **Plan capacity around temperature**: Maintain higher bike availability in warm conditions (22–30°C, peak around 26°C) and reduce supply during extreme cold or heat when demand drops.
+- **Avoid overestimating demand in moderate temperatures (17–22°C)**: Treat this range as a risk zone with higher likelihood of demand drops, especially under high humidity.
+- **Incorporate humidity as a demand signal**: High humidity suppresses demand even at moderate temperatures; adjust allocation downward when humidity is elevated.
+- **Prioritize commuter-driven demand**: Registered riders account for ~80% of extreme demand fluctuations, so bike allocation should focus on peak commuting periods and locations.
 
 ---
 
-## 📚 Data Source
+## Data Source
 
 Fanaee-T, H. (2013). *Bike Sharing* [Dataset]. UCI Machine Learning Repository.  
 https://doi.org/10.24432/C5W894
