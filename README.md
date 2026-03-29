@@ -1,6 +1,5 @@
 # Bike-Sharing Demand Deviation Analysis for Operational Planning
 
-Analyzing bike-sharing demand deviations using time series decomposition (STL) to uncover how weather, temperature, humidity, and rider behavior influence demand beyond seasonal patterns.
 ## Project Overview
 
 This project analyzes bike-sharing demand deviations using time-series decomposition (STL) to understand how weather, temperature, humidity, and rider behavior influence demand beyond seasonal patterns.  
