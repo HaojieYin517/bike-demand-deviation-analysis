@@ -9,8 +9,7 @@ Analyzing bike-sharing demand deviations using time series decomposition (STL) t
 
 ## Project Overview
 
-This project focuses on understanding **unexpected changes in bike demand** after removing trend and seasonality.  
-By analyzing **residual demand**, we isolate how external factors drive deviations from expected usage and translate these patterns into **actionable operational planning strategies**.
+This project focuses on understanding **unexpected changes in bike demand** after removing trend and seasonality. By analyzing **residual demand**, we isolate how external factors drive deviations from expected usage and translate these patterns into **actionable operational planning strategies**.
 
 ---
 
