@@ -21,7 +21,7 @@ This project analyzes bike-sharing demand deviations using time-series decomposi
 
 ## Key Results
 
-- Rain is associated with **~17–18 fewer rentals/hour** and a sharp increase in negative demand shocks (6% → 38%)
+- Rain is associated with **~17–18 fewer rentals/hour** and a sharp increase in negative demand shocks (**6% → 38%**)
 - Demand peaks around **26°C**, but shows a **non-monotonic dip at 17–22°C**
 - This dip is associated with **high humidity**, not temperature alone
 - ~**80% of demand deviations during extreme shocks** is driven by **registered (commuter) riders**
